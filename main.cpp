@@ -1,12 +1,12 @@
 #include <SFML/Graphics.hpp>
 #include <memory>
-#include "menger.hpp"
+#include "sierpinski.hpp"
 
 int main()
 {
     auto sz = std::min(sf::VideoMode::getDesktopMode().height, sf::VideoMode::getDesktopMode().width);
     sf::RenderWindow window(sf::VideoMode(sz, sz), "Fractals!");
-    std::unique_ptr<Fractal> fractal = std::make_unique<Menger>();
+    std::unique_ptr<Fractal> fractal = std::make_unique<Sierpinski>();
 
     window.clear();
     fractal->draw(window);

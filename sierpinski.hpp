@@ -1,9 +1,9 @@
-#ifndef MENGER_HPP
-#define MENGER_HPP
+#ifndef SIERPINSKI_HPP
+#define SIERPINSKI_HPP
 
 #include "fractal.hpp"
 
-class Menger : public Fractal
+class Sierpinski : public Fractal
 {
 private:
 public:

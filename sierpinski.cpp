@@ -1,12 +1,12 @@
 #include <math.h>
-#include "menger.hpp"
+#include "sierpinski.hpp"
 
-void Menger::iterate()
+void Sierpinski::iterate()
 {
     _iteration++;
 }
 
-void Menger::draw(sf::RenderWindow & window) const
+void Sierpinski::draw(sf::RenderWindow & window) const
 {
     const auto sz = sf::Vector2f
     {
