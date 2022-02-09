@@ -1,6 +1,6 @@
 #include <SFML/Graphics.hpp>
 #include <memory>
-#include "sierpinski.hpp"
+#include "fractals/sierpinski.hpp"
 
 int main()
 {
