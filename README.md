@@ -9,7 +9,7 @@
 ![SierpinskiCarpet6](SierpinskiCarpet6.png)
 ![SierpinskiCarpet7](SierpinskiCarpet7.png)
 ![SierpinskiCarpet8](SierpinskiCarpet8.png)
-#Sierpinski Triangle
+# Sierpinski Triangle
 ![SierpinskiTriangle0](SierpinskiTriangle0.png)
 ![SierpinskiTriangle1](SierpinskiTriangle1.png)
 ![SierpinskiTriangle2](SierpinskiTriangle2.png)
