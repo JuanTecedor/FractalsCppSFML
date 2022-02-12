@@ -21,11 +21,11 @@
 ![SierpinskiTriangle8](SierpinskiTriangle8.png)
 
 ## Controls
-Space to iterate
-1 for Sierpinski Carpet
-2 for Sierpinski Triangle
-S to save a screenshot
-Escape to exit or clicking close window
+* Space to iterate
+* 1 for Sierpinski Carpet
+* 2 for Sierpinski Triangle
+* S to save a screenshot
+* Escape to exit or clicking close window
 
 ## Dependencies
 ```
