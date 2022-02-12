@@ -51,7 +51,7 @@ int main()
                     sf::Texture texture;
                     texture.create(sz, sz);
                     texture.update(window);
-                    texture.copyToImage().saveToFile(fractal->name() + std::to_string(fractal->iteration()) + ".png");
+                    texture.copyToImage().saveToFile("img/" + fractal->name() + std::to_string(fractal->iteration()) + ".png");
                 }  
             }
         }
