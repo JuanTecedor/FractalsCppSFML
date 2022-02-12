@@ -7,6 +7,7 @@ class Sierpinski : public Fractal
 {
 private:
 public:
+    Sierpinski();
     void iterate();
     void draw(sf::RenderWindow & window) const;
 };
