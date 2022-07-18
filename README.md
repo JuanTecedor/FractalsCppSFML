@@ -29,12 +29,13 @@
 
 ## Dependencies
 ```
-sudo apt install g++
-sudo apt install libsfml-dev
+sudo apt install clang++ libsfml-dev
 ```
 
 ## Compile, link and run
 ```
-g++ -o fractalsInCpp src/*.cpp src/fractals/*.cpp -lsfml-graphics -lsfml-window -lsfml-system
-./fractalsInCpp
+At project root level:
+$ mkdir build
+Then run:
+$ cmake ../ && cmake --build . && ./fractals
 ```
