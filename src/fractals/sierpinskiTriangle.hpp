@@ -8,8 +8,8 @@ class SierpinskiTriangle : public Fractal
 private:
 public:
     SierpinskiTriangle();
-    void iterate();
-    void draw(sf::RenderWindow & window) const;
+    void iterate() override;
+    void draw(sf::RenderWindow & window) const override;
 };
 
 #endif
