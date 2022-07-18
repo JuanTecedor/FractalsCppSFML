@@ -7,11 +7,6 @@ SierpinskiTriangle::SierpinskiTriangle()
     _iteration = 0;
 }
 
-void SierpinskiTriangle::iterate()
-{
-    _iteration++;
-}
-
 void SierpinskiTriangle::draw(sf::RenderWindow & window) const
 {
     const auto sz = sf::Vector2f

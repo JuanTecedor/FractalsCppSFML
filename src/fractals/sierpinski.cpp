@@ -7,11 +7,6 @@ Sierpinski::Sierpinski()
     _iteration = 0;
 }
 
-void Sierpinski::iterate()
-{
-    _iteration++;
-}
-
 void Sierpinski::draw(sf::RenderWindow & window) const
 {
     const auto sz = sf::Vector2f

@@ -10,3 +10,8 @@ int Fractal::iteration() const
 {
     return _iteration;
 }
+
+void Fractal::iterate()
+{
+    ++_iteration;
+}
