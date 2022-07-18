@@ -15,6 +15,7 @@ $ sudo apt install clang++ libsfml-dev
 At project root level:
 ```
 $ mkdir build
+$ cd build
 $ cmake ../ && cmake --build . && ./fractals
 ```
 Alternatively:
