@@ -4,6 +4,7 @@
 SierpinskiTriangle::SierpinskiTriangle()
 {
     _name = "SierpinskiTriangle";
+    _iteration = 0;
 }
 
 void SierpinskiTriangle::iterate()

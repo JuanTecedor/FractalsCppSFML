@@ -4,6 +4,7 @@
 Sierpinski::Sierpinski()
 {
     _name = "SierpinskiCarpet";
+    _iteration = 0;
 }
 
 void Sierpinski::iterate()

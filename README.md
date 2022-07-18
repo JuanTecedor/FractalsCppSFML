@@ -19,8 +19,18 @@ $ cmake ../ && cmake --build . && ./fractals
 ```
 Alternatively:
 ```
-$ clang++ -o fractalsInCpp src/*.cpp src/fractals/*.cpp -lsfml-graphics -lsfml-window -lsfml-system
-./fractalsInCpp
+$ clang++ -o build/fractals src/*.cpp src/fractals/*.cpp -lsfml-graphics -lsfml-window -lsfml-system
+```
+
+Then:
+```
+$ ./fractals
+```
+
+## Extra tools
+
+```
+$ cppcheck --enable=all src/ --std=c++20 --library=sfml --suppress=missingIncludeSystem
 ```
 
 ## Fractals Examples
